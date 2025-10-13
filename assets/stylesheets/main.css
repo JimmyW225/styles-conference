@@ -55,7 +55,7 @@ table {
 
 body {
   color: #888;
-  font: 300 16px/22px "open sans", "helvetica neue", helvetica, arial, sans-serif;
+  font: 300 16px/22px  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -147,6 +147,7 @@ h5 {
   color: #a9b2b9;
   font-size:14px;
   font-weight:400px;
+  text-transform: uppercase;
 }
 strong {
   font-weight: 400;
@@ -166,9 +167,13 @@ a:hover{
 }
 a {
   color: #648880;
+  text-decoration: none;
 }
 .teaser a:hover h3{
   color: #a9b2b9;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 
 /*
@@ -197,17 +202,22 @@ a {
   border-top: 4px solid #648880;
   float: left;
   padding: 40px 0 22px 0;
-  font-size: 40px;
+  font-size: 48px;
   line-height: 44px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 .tagline{
   margin: 66px 0 22px 0;
+  text-align: right; 
 }
-.priamry-nav{
+.primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
-
 /*
   ========================================
   Primary footer
@@ -234,10 +244,22 @@ a {
 .hero {
   padding: 22px 80px 66px 80px;
   line-height:44px;
+  text-align: center;
 }
 .hero h2 {
   font-size: 36px;
 }
 .hero p {
   font-size: 24px;
+  font-weight: 100;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: right;
 }
