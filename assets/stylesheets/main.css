@@ -334,6 +334,7 @@ p a {
   margin-bottom: 22px;
   max-width: 100%
 }
+
 /*
   ========================================
   Speakers
@@ -356,6 +357,7 @@ p a {
   margin: -66px 0 22px 0;
   vertical-align: top;
 }
+
 /*
   ========================================
   Venue
@@ -368,6 +370,6 @@ p a {
 .venue-hotel {
   margin-bottom: 22px;
 }
-.venue-map{
-  height:264px;
+.venue-map {
+  height: 264px;
 }
